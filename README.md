@@ -15,3 +15,5 @@ In other words, consider the set of $n$ equal routes $P =$ \{ $p_1, \space p_2, 
 The only $p_i$ route must be chosen such that there is no other $p_j$ route with the same $k$ final stages preceded by a stage with a shorter distance, i.e.: $\not\exists j, k : \langle p_{i, m-k+1}, ..., p_{i, m} \rangle = \langle p_{j, m-k+1}, ..., p_{j, m} \rangle \land p_{j, m-k} < p_{i, m-k}$
 
 The following is an example of a highway. In this example, the correct path between the station at distance 20 and the station at distance 50 is 20 → 30 → 50 (and not 20 → 45 → 50). Note that, instead, 50 → 30 → 20 is the correct path between the station at distance 50 and the station at distance 20 (thus in the right-to-left direction).
+
+![alt text](https://github.com/justvicthor/ProgettoAPI/blob/main/API_example.png?raw=true)
