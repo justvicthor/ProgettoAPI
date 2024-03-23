@@ -1,3 +1,4 @@
+## Final examination of algorithms and data structures (2022-2023)
 Consider a highway described as a sequence of service stations. Each service station is located at a distance from the beginning of the highway expressed in kilometers by a positive or zero integer. There are no two service stations having the same distance: each service station is therefore uniquely identified by its distance from the beginning of the highway.
 
 Each service station is equipped with a fleet of electric rental vehicles. Each vehicle is distinguished by the range given by a battery charge, expressed in kilometers, by a positive integer. The fleet of vehicles of a single station includes at most 512 vehicles. By renting a car from an $s$ station, it is possible to reach all those whose distance from $s$ is less than or equal to the car's range.
