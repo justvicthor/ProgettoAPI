@@ -10,7 +10,7 @@ than $s$, and $t$ must be reachable using one of the vehicles available at $s$.
 
 The goal of the project is the following: given a pair of stations, plan the route with the least number of stages between them. In case there are multiple routes with the same minimum number of stops (i.e., tied), the route that prefers the stops with the shortest distance to the beginning of the highway should be chosen.
 
-In other words, consider the set of $n$ equal routes $P = \{p_1, p_2, p_3, ... \}$ where each route is a tuple of $m$ elements $p_i = \langle p_{i, 1}, p_{i, 2}, ..., p_{i, m} \rangle$ that equates the distance from the highway start of each stop in order of travel.
+In other words, consider the set of $n$ equal routes $P = {p_1, p_2, p_3, ... }$ where each route is a tuple of $m$ elements $p_i = \langle p_{i, 1}, p_{i, 2}, ..., p_{i, m} \rangle$ that equates the distance from the highway start of each stop in order of travel.
 
 The only $p_i$ route must be chosen such that there is no other $p_j$ route with the same $k$ final stages preceded by a stage with a shorter distance, i.e.: $\not\exists j, k : \langle p_{i, m-k+1}, ..., p_{i, m} \rangle = \langle p_{j, m-k+1}, ..., p_{j, m} \rangle \land p_{j, m-k} < p_{i, m-k}$
 
